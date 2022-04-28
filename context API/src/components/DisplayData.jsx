@@ -21,5 +21,9 @@ export const DisplayData = () => {
         }
       );
   }, []);
-  return <div></div>;
+  <div
+    style={{
+      backgroundImage: `url("https://via.placeholder.com/500")`,
+    }}
+  ></div>;
 };
